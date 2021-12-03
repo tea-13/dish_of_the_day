@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Delicates</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="main">
+
+		<form>
+			<p><input id="newDish" type="submit" value="Показать рецепт"></p>
+
+			<p><a href="#openModal" class="btn" id="filter" name="filter">Фильтр</a></p>
+
+
+		</form>
+	</div>
+
+	<div id="openModal" class="modalDialog">
+		<div>
+			<h2 class="titleFilter">Фильтры:</h2>
+			<div class="column">
+				<a href="#close" title="Close" class="close">X</a>
+				<p>
+					<input type="radio" name="country" value="RU">Русская кухня<Br>
+					<input type="radio" name="country" value="CH">Швейцарская кухня<Br>
+					<input type="radio" name="country" value="GB">Великобританская кухня<Br>
+					<input type="radio" name="country" value="US">Американсая кузня<Br>
+					<input type="radio" name="country" value="KZ">Казахстанская кухня<Br>
+					<input type="radio" name="country" value="CN">Китайская кухня<Br>
+				</p>
+				<p>
+					<input type="radio" name="eatTime" value="breakfast">Завтрак<Br>
+					<input type="radio" name="eatTime" value="lunch">Обед<Br>
+					<input type="radio" name="eatTime" value="dinner">Ужин<Br>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
